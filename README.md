@@ -6,7 +6,7 @@ Para este propósito, se grabaron dos audios en una sala insonorizada (ruido amb
 
 La configuración de la captación de audio se muestra en la siguiente imagen. En este ejercicio, cada fuente dijo una frase diferente al mismo tiempo de grabación.
 
-[imagen]
+![image](https://github.com/user-attachments/assets/0214f9f0-8200-4abe-9d2a-77c12ba35f5c)
 
 Los micrófonos se ubicaron a una distancia de 0.5 metros frente a cada fuente y a 1 metro de distancia entre las fuentes, como se muestra en la imagen anterior.
 
@@ -14,11 +14,19 @@ Para la adquisición de la señal, se utilizó el sistema de adquisición de dat
 
 Continuando de esta manera, con la ayuda de la librería librosa, se subieron los audios a Colab, y con la librería matplotlib, se graficaron cada señal. Estas se pueden observar a continuación.
 
-[imagen]
+![image](https://github.com/user-attachments/assets/e210245e-12a6-41bd-8124-1b307d7b3286)
+
+![image](https://github.com/user-attachments/assets/bc67ca0e-c452-4500-ab5d-253e1974b1dc)
+
+![image](https://github.com/user-attachments/assets/d6a36e97-23be-4d52-a832-103a8cf2af69)
 
 Como se visualiza, estas primeras tres señales corresponden al ruido ambiental captado por cada micrófono, teniendo en el eje vertical la amplitud de la señal y en el eje horizontal el tiempo en segundos.
 
-[imagen]
+![image](https://github.com/user-attachments/assets/367ed5e3-4b74-4d74-99a1-4801cb3950b2)
+
+![image](https://github.com/user-attachments/assets/7a68e28b-d68f-4ebd-b528-34a085e5e416)
+
+![image](https://github.com/user-attachments/assets/89b60ecf-6fae-4eef-b7b3-2f9d098572f0)
 
 Continuando, estas tres últimas imágenes hacen referencia a la señal cuando las tres fuentes están hablando. De la misma manera que anteriormente, en el eje vertical tenemos la amplitud de la señal y en el eje horizontal el tiempo de la grabación. Es relevante mencionar que la amplitud máxima de estas señales es de 0.075 y la duración es de 5.1 segundos, al igual que el ruido ambiental.
 
@@ -33,7 +41,12 @@ Así, el objetivo es descomponer la grabación, en la que hay tres fuentes, deja
 
 Teniendo esto en cuenta, se muestran las gráficas respectivas donde se evidencia el comportamiento de la señal en el dominio de la frecuencia. Estas se obtuvieron con la ayuda de las librerías scipy y matplotlib para graficar cada una de las transformadas.
 
-[imagen]
+![image](https://github.com/user-attachments/assets/6065b022-92ed-47ba-8fbc-f75812de797a)
+
+![image](https://github.com/user-attachments/assets/0af1ad59-bd3f-4781-9b41-380ae988e8c4)
+
+![image](https://github.com/user-attachments/assets/e4bfcb47-e792-4dd9-a05e-742a0c6b7bfe)
+
 
 Para el análisis espectral de esta señal en el dominio de la frecuencia, es importante entender que solo se evalúa la mitad de la longitud de la señal original, ya que la respuesta en frecuencia es simétrica al tratarse de una señal natural, como la voz humana. Además, cada pico en esta gráfica muestra las frecuencias presentes en la señal original, junto con su respectiva magnitud. En este caso, la frecuencia dominante del sistema es de aproximadamente 2 kHz, con una magnitud de 80.
 
