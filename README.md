@@ -54,7 +54,7 @@ Finalmente, se utilizaron diversas librerías para la separación de fuentes en 
 
 Adicionalmente, se graficaron las fuentes independientes en el dominio del tiempo para luego descargar los archivos MP3.
 
-[image](https://github.com/user-attachments/assets/fd5edfcd-3d58-4071-b81c-f68b9ba7729c)
+![image](https://github.com/user-attachments/assets/fd5edfcd-3d58-4071-b81c-f68b9ba7729c)
 
 En la imagen anterior se visualiza la fuente independiente. En el eje x está representado el dominio del tiempo en milisegundos (ms), y en el eje y se encuentra la amplitud. Esta señal es muy similar a la original captada por los micrófonos. Sin embargo, en esta señal predomina una sola fuente, lo que significa que esta fuente resalta sobre las demás. Aunque se logran escuchar las otras, la relación señal-ruido (SNR) de esta señal fue de 0.20 debido al ruido presente. El programa describe las demás fuentes como ruido ambiental. A pesar de un SNR tan bajo, se logra diferenciar una sola fuente de las demás.
 
