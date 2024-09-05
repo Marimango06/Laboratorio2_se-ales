@@ -60,7 +60,7 @@ En la imagen anterior se visualiza la fuente independiente. En el eje x está re
 
 El resultado de la fuente independiente no es de alta resolución, ya que el método utilizado puede verse afectado por la cantidad de muestras de cada señal. Este método requiere un amplio número de muestras, y en este ejercicio fue necesario recortar las señales para que tuvieran la misma longitud. Esto pudo haber favorecido la pérdida de información. Con esto en mente, se pueden implementar algunas mejoras en la metodología del Análisis de Componentes Independientes (ICA) para obtener mejores resultados, tales como:
 
-Configuración del Arreglo de Micrófonos: Un arreglo lineal de tres micrófonos espaciados uniformemente puede mejorar la calidad del resultado. Asegúrate de que los micrófonos estén calibrados y tengan una respuesta de frecuencia similar para evitar sesgos. Además, coloca el arreglo en una posición óptima respecto a las fuentes de sonido para maximizar la separación de señales.
+Configuración del Arreglo de Micrófonos: Un arreglo lineal de tres micrófonos espaciados uniformemente puede mejorar la calidad del resultado. Al igual se debe asegurar que los micrófonos estén calibrados y tengan una respuesta de frecuencia similar para evitar sesgos. Además, de colocar el arreglo en una posición óptima respecto a las fuentes de sonido para maximizar la separación de señales.
 
 Resolución de Captura: Si la fuente sonora está más cerca del micrófono, se tendrá una mayor resolución frente a los decibeles captados, ya que la onda sonora estará más cercana. Esto reduce la pérdida de información, ya que el sonido se disipa en el aire y, mientras más lejos esté el dispositivo de adquisición de audio, menor será la información captada de la onda sonora.
 
